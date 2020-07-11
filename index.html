@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Stop Watch</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="sayl">
+            <h3 id="h3class">Stop Watch</h3>
+            <i class="fas fa-clock fa-2x"></i>
+        </div>
+        <div class="btnclass">
+           <h1 id="min">00<span>:</span></h1>
+           <h1 id="sec">00<span>:</span></h1>
+           <h1 id="msec">00</h1>
+        </div>
+        <div>
+            <button id="btn1" class="btn1" onclick="start()">Start</button>
+            <button id="btn2" class="btn2" onclick="stop()">Pause</button>
+            <button id="btn3" class="btn3" onclick="reset()">Reset</button>
+        </div>
+    </div>
+</body>
+
+
+
+<script src="app.js"></script>
+</html>
